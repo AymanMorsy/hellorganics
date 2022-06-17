@@ -7,23 +7,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&amp;family=Tajawal:wght@400;500;700&amp;display=swap" rel="stylesheet">
-<title>hello organic - fresh and healthy organic products</title>
-<meta name="description" content="welcome to the home of organics foods in egypt. we are producing organic chicken, honey bees, organic eggs, fresh organic vegetables, microgreens, and dairy milk.">
-    <!-- Open Graph / Facebook-->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.hellorganics.com/">
-    <meta property="og:title" content="hello organic - fresh and healthy organic products">
-    <meta property="og:description" content="welcome to the home of organics foods in egypt. we are producing organic chicken, honey bees, organic eggs, fresh organic vegetables, microgreens, and dairy milk.">
-    <meta property="og:image" content="https://images.ctfassets.net/qsose1xd63wa/7lC3HTuyLCfIRvgR6eXbuS/9f3eaef53805b4418de2782ea7161c13/fb.jpg">
-    <!-- Twitter-->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.hellorganics.com/">
-    <meta property="twitter:title" content="hello organic - fresh and healthy organic products">
-    <meta property="twitter:description" content="welcome to the home of organics foods in egypt. we are producing organic chicken, honey bees, organic eggs, fresh organic vegetables, microgreens, and dairy milk.">
-    <meta property="twitter:image" content="https://images.ctfassets.net/qsose1xd63wa/7lC3HTuyLCfIRvgR6eXbuS/9f3eaef53805b4418de2782ea7161c13/fb.jpg">
-  <script defer src="main.bundel.js"></script><link href="main.css" rel="stylesheet"></head>
-  <body data-barba="wrapper">
-    <div class="container" data-barba="container" data-barba-namespace="home">
+<title>products</title>
+<meta name="description" content="this products page">
+  <script defer src="main.bundel.js"></script><script defer src="products.bundel.js"></script><link href="main.css" rel="stylesheet"></head>
+  <body data-barba="wrapper"></body>
+  <div class="container" data-barba="container" data-barba-namespace="products">
 <header>
 <div class="logo"><a href="./index.html"><img src="imges/hellorganics_h50.png" alt=""></a></div>
   <nav class="desktop">
@@ -70,58 +58,28 @@
     <div></div>
   </div>
 </header>
-      <main>
-        <section class="vedio-slider">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="product vid1"><a class="video-play-button" id="play-video1" data-id="wBcnUUkdavE"><span>             </span></a></div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product vid2"><a class="video-play-button" id="play-video2" data-id="V0BrgBF9IQM"><span>             </span></a></div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product vid3"><a class="video-play-button" id="play-video3" data-id="Bt2Z-YauZrs"><span>                        </span></a></div>
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </section>
-        <section class="why-us">
-          <div class="hero"></div>
-          <div class="counters-wrapper">
-            <h2>Why Hello organic ?</h2>
-            <div class="counter-container">
-              <div class="counter-item">
-                <p class="counter" data-num="21">20+</p>
-                <p class="info"> protein & power</p>
-              </div>
-              <div class="counter-item">
-                <p class="counter" data-num="101">100%</p>
-                <p class="info">Fresh</p>
-              </div>
-              <div class="counter-item">
-                <p class="counter" data-num="101">100%</p>
-                <p class="infoHappy">Organic & healthy</p>
-              </div>
-              <div class="counter-item">
-                <p class="counter" data-num="41">7 Days</p>
-                <p class="info">Home Delivery</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="category">
-          <h3>Our Category products</h3>
-          <div class="wrapper"><a class="items" href="./products.html#vegetables"><img src="imges/cat-veg.jpg">
-              <p>vegtables</p></a><a class="items" href="./products.html#microgreen"><img src="imges/cat-micro.jpg">
-              <p>Microgreen</p></a><a class="items" href="./products.html#dairy"><img src="imges/cat-dairy.jpg">
-              <p>Dairy</p></a><a class="items" href="./products.html#bee"><img src="imges/cat-bee.jpg">
-              <p>Bee</p></a><a class="items" href="./products.html#chicken"><img src="imges/cat-ch.jpg">
-              <p>chicken</p></a></div>
-        </section>
-      </main>
-      <div class="video-overlay" id="video-overlay"><a class="video-overlay-close">&times;</a></div>
+    <main>
+      <div class="products-hero"> </div>
+      <div class="product-filter"> 
+        <nav> 
+          <ul> 
+            <li> 
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 3H5a1 1 0 0 0-1 1v2.59c0 .523.213 1.037.583 1.407L10 13.414V21a1.001 1.001 0 0 0 1.447.895l4-2c.339-.17.553-.516.553-.895v-5.586l5.417-5.417c.37-.37.583-.884.583-1.407V4a1 1 0 0 0-1-1zm-6.707 9.293A.996.996 0 0 0 14 13v5.382l-2 1V13a.996.996 0 0 0-.293-.707L6 6.59V5h14.001l.002 1.583-5.71 5.71z"></path>
+              </svg>
+            </li>
+            <li class="active" id="all" data-get="all"><a href="#all">All</a></li>
+            <li data-get="inseason"><a href="#inseason">In-Season</a></li>
+            <li data-get="vegetables"><a href="#vegetables">Vegetables</a></li>
+            <li data-get="microgreen"><a href="#microgreen">Microgreen</a></li>
+            <li data-get="chicken"><a href="#chicken">Chicken</a></li>
+            <li data-get="dairy"><a href="#dairy">Dairy</a></li>
+            <li data-get="bee"><a href="#bee">Bee</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="product-container"></div>
+    </main>
 <footer>
   <div class="row slogan"> 
 <div class="logo"><a href="./index.html"><img src="imges/hellorganics_h50.png" alt=""></a></div>
@@ -148,6 +106,5 @@
   </div>
 </footer>
 <div class="copy-rights"><span>Copyright© 2022  </span><span> Hello Organics </span></div>
-    </div>
-  </body>
+  </div>
 </html>
